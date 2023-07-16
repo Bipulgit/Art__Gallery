@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    "mongodb+srv://bipulkumar:Pubglite3384@cluster0.bfjvd1t.mongodb.net/bipul",
+    "mongodb://localhost:27017/",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
