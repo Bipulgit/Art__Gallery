@@ -50,6 +50,10 @@ app.get("/Literature", (req, res) => {
   res.render("Literature");
 });
 
+app.get("/exhibition", (req, res) => {
+  res.render("exhibition");
+});
+
 app.get("/Sculpture", (req, res) => {
   res.render("Sculpture");
 });
@@ -98,7 +102,6 @@ app.get("/payment", async (req, res) => {
     res.status(400).send(error);
   }
 });
-
 
 app.get("/register", async (req, res) => {
   try {
